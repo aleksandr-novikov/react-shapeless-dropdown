@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown component Renders with component button and component content 1`] = `ShallowWrapper {}`;
+
+exports[`Dropdown component Renders with text button and text content 1`] = `ShallowWrapper {}`;
+
+exports[`Dropdown component Renders without props 1`] = `ShallowWrapper {}`;

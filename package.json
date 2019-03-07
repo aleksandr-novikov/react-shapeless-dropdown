@@ -1,0 +1,36 @@
+{
+  "name": "react-shapeless-dropdown",
+  "version": "1.0.0",
+  "description": "React shapeless dropdown component",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "webpack --watch --mode production",
+    "build": "webpack --mode production",
+    "test": "jest",
+    "test:watch": "yarn test --watch",
+    "test:coverage": "yarn test --coverage"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "dropdown"
+  ],
+  "author": "Aleksandr Novikov",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.8.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.10.0",
+    "jest": "^24.1.0",
+    "react-dom": "^16.8.4",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  }
+}
