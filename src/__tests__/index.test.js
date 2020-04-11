@@ -1,7 +1,7 @@
 import React from 'react';
 import Enzyme, {shallow, mount} from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-import Dropdown from '../src';
+import Dropdown from '../index';
 
 Enzyme.configure({adapter: new Adapter()});
 const dummy = ({text}) => (<button className={text}>{text}</button>);

@@ -1,4 +1,4 @@
 module.exports = {
     collectCoverageFrom: ["src/*.js"],
-    testMatch: ["<rootDir>/__tests__/*.test.js"],
+    testMatch: ["<rootDir>/src/__tests__/*.test.js"],
 };

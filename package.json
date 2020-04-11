@@ -1,14 +1,14 @@
 {
   "name": "react-shapeless-dropdown",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React shapeless dropdown component",
   "main": "dist/index.js",
   "scripts": {
     "start": "webpack --watch --mode production",
     "build": "webpack --mode production",
     "test": "jest",
-    "test:watch": "yarn test --watch",
-    "test:coverage": "yarn test --coverage"
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "keywords": [
     "react",
@@ -17,20 +17,22 @@
   ],
   "author": "Aleksandr Novikov",
   "license": "MIT",
-  "dependencies": {
+  "peerDependencies": {
     "react": "^16.8.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.3.4",
-    "@babel/plugin-proposal-class-properties": "^7.3.4",
-    "@babel/preset-env": "^7.3.4",
-    "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.5",
-    "enzyme": "^3.9.0",
-    "enzyme-adapter-react-16": "^1.10.0",
-    "jest": "^24.1.0",
-    "react-dom": "^16.8.4",
-    "webpack": "^4.29.6",
-    "webpack-cli": "^3.2.3"
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "jest": "^24.9.0",
+    "prop-types": "^15.7.2",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "react": "^16.8.4"
   }
 }
